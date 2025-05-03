@@ -20,6 +20,10 @@ export default function Home() {
         </p>
         <GraphGenerator />
       </div>
+      <footer className="w-full bg-transparent text-white text-center py-4">
+        <p className="text-sm">&copy; {new Date().getFullYear()} Created by Purvai Patil.</p>
+        <p className="text-sm">All rights reserved.</p>
+      </footer>
     </main>
   );
 }
